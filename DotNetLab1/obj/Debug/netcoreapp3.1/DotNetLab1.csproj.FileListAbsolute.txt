@@ -1,0 +1,13 @@
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.exe
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.deps.json
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.runtimeconfig.json
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.runtimeconfig.dev.json
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.dll
+D:\Study\dotNetLabs\DotNetLab1\bin\Debug\netcoreapp3.1\DotNetLab1.pdb
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.csprojAssemblyReference.cache
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.AssemblyInfoInputs.cache
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.AssemblyInfo.cs
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.csproj.CoreCompileInputs.cache
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.dll
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.pdb
+D:\Study\dotNetLabs\DotNetLab1\obj\Debug\netcoreapp3.1\DotNetLab1.genruntimeconfig.cache
