@@ -69,9 +69,9 @@ namespace DotNetLab2
       customLogger.RecordEntry($"sourcePath: {sourcePath}, targetPath: {targetPath}");
       watcher = new FileSystemWatcher(sourcePath);
       watcher.IncludeSubdirectories = true;
-      watcher.Filter = "*.txt";
-
       watcher.Created += OnCreated;
+      watcher.Filter = "*.txt";
+      watcher.EnableRaisingEvents = true;
     }
 
     public void Start()
@@ -90,6 +90,7 @@ namespace DotNetLab2
     // создание файлов
     private void OnCreated(object sender, FileSystemEventArgs args)
     {
+      customLogger.RecordEntry("onCreated fired!");
       string[] tempPath = args.FullPath.Replace(sourcePath, "").Split('\\');
       string year = tempPath[1];
       string month = tempPath[2];

@@ -12,22 +12,35 @@ namespace DotNetLab2
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>
-		static void Main()
+		static void Main(string[] args)
 		{
-			if (Environment.UserInteractive)
+			if (args.FirstOrDefault()?.ToUpper() == "/CONSOLE")
 			{
-				Service1 service1 = new Service1();
-				service1.TestStartupAndStop();
+				RunAsConsole();
 			}
 			else
 			{
-				ServiceBase[] ServicesToRun;
-				ServicesToRun = new ServiceBase[]
-				{
-					new Service1()
-				};
-				ServiceBase.Run(ServicesToRun);
+				RunAsService();
 			}
+		}
+		private static void RunAsConsole()
+		{
+			Service1 service1 = new Service1();
+			service1.TestStartupAndStop();
+		}
+		private static void RunAsService()
+		{
+			/* Warning: Don't load the object graph or 
+			 * initialize anything in here. 
+			 * 
+			 * Initialize everything in TestService.StartService() instead
+			 */
+			ServiceBase[] ServicesToRun;
+			ServicesToRun = new ServiceBase[]
+			{
+								new Service1()
+			};
+			ServiceBase.Run(ServicesToRun);
 		}
 	}
 }
