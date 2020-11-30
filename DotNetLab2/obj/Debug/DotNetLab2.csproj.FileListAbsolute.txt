@@ -1,0 +1,10 @@
+D:\Study\dotNetLabs\DotNetLab2\obj\Debug\DotNetLab2.csprojAssemblyReference.cache
+D:\Study\dotNetLabs\DotNetLab2\obj\Debug\DotNetLab2.csproj.CoreCompileInputs.cache
+D:\Study\dotNetLabs\DotNetLab2\bin\Debug\DotNetLab2.exe.config
+D:\Study\dotNetLabs\DotNetLab2\bin\Debug\DotNetLab2.exe
+D:\Study\dotNetLabs\DotNetLab2\bin\Debug\DotNetLab2.pdb
+D:\Study\dotNetLabs\DotNetLab2\obj\Debug\DotNetLab2.exe
+D:\Study\dotNetLabs\DotNetLab2\obj\Debug\DotNetLab2.pdb
+D:\Study\dotNetLabs\DotNetLab2\bin\Debug\Newtonsoft.Json.dll
+D:\Study\dotNetLabs\DotNetLab2\bin\Debug\Newtonsoft.Json.xml
+D:\Study\dotNetLabs\DotNetLab2\obj\Debug\DotNetLab2.csproj.CopyComplete
